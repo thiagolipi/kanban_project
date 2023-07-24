@@ -1,0 +1,52 @@
+main {    
+    background-color: #eeeeee;
+}
+
+header {        
+    background-color: #7677EB;
+    justify-content: space-evenly;
+    color: white;
+    height: 6vh;    
+    display: flex;    
+    align-items: center;
+    border-bottom: solid black 2px;
+}
+
+.content {     
+    margin: auto;
+    width: 70vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu {          
+    background-color: #cccccc;                
+    text-align: center;        
+    width: 23vw;
+    min-height: 100vh;
+    max-height: auto;
+}
+
+.menu h2 {
+    text-decoration: underline;
+}
+
+.card {    
+    border: black 1px solid;
+    margin: 30px;    
+    max-width: 28vw;    
+}
+
+.card button {
+    align-self: center;
+    width: max-content;
+    padding: 3px; 
+    margin: 1px;       
+    border-radius: 10px;
+}
+
+footer {    
+    background-color: #7677EB;
+    text-align: center;    
+    height: 3vh;    
+}
